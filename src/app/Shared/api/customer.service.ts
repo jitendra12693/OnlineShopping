@@ -7,6 +7,7 @@ import BillingAddress from '../models/BillingAddress';
 
 @Injectable()
 export default class CustomerService {
+    // testting
     public API = 'http://localhost:64861/api/Customer';
     // public API = 'http://10.22.28.5:1993/api';
     public CUSTOMER_API = `${this.API}/GetCustomer/?customerId=`;
